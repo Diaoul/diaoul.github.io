@@ -1,0 +1,52 @@
+baseurl = "https://diaoul.github.io"
+title = "Antoine Bertin"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+paginate = 20
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+googleAnalytics = "G-Y8FEJK3011"
+
+[params]
+  author = "Antoine Bertin"
+  info = "Software Engineering Manager"
+  description = "Antoine Bertin's personal website"
+  keywords = "manager,developer,personal"
+  gravatar = "diaoulael@gmail.com"
+  since = 2021
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  customCSS = []
+  customSCSS = []
+  customJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/antbertin/"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/Diaoul/"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:antoine@bertin.io"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
