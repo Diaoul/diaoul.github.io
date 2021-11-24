@@ -13,12 +13,12 @@ googleAnalytics = "G-Y8FEJK3011"
   author = "Antoine Bertin"
   info = "Software Engineering Manager"
   description = "Antoine Bertin's personal website"
-  keywords = "manager,developer,personal"
-  gravatar = "diaoulael@gmail.com"
+  keywords = "engineer,software,manager,developer,personal"
+  avatarUrl = "images/avatar.png"
   since = 2021
   colorScheme = "auto"
   hidecolorschemetoggle = false
-  customCSS = []
+  customCSS = ["css/custom.css"]
   customSCSS = []
   customJS = []
 
